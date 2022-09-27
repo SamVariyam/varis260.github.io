@@ -1,0 +1,45 @@
+body {
+  font-size: 20px;
+  background-color: #b0d886;
+}
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 350px;
+  color: darkolivegreen;
+  padding: 15px;
+}
+
+h2 {
+ font-family: font-family: 'Prata', serif;
+ font-size: 40px;
+ color: darkolivegreen;
+}
+
+.entries {
+  font-family; courier
+  color: yellow;
+  font-size: 20px;
+
+}
+
+
+a {
+  
+}
+
+.entry a {
+  
+}
+.entry {
+  padding: 20px;
+}
+
+.heading {
+  font-family: bodoni;
+  font-size: 40px;
+}

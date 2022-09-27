@@ -1,0 +1,81 @@
+body {
+	background-color: #000d31;;
+}
+
+h1 {
+	display: inline-block;
+	font-family: leather, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 400px;
+	color: #d3d4d5;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 100px;
+	line-height: 250px;
+	height: 250px;
+	text-shadow: 5px 5px 0px #eb452b, 
+                  10px 10px 0px #3290ef, 
+                  15px 15px 0px #58706a, 
+                  20px 20px 0px #017e7f, 
+                  25px 25px 0px #053925, 
+                  30px 30px 0px #1a7dc1, 
+                  35px 35px 0px #4c1ac1eb, 
+                  40px 40px 0px #851ac1, 
+                  45px 45px 0px #c11a2b;
+}
+
+.backbutton {
+	background: -webkit-linear-gradient(#00ffe5, darkorchid);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	color:#00ffe5;
+	font-size: 20px;
+	font-family: droid-sans-mono,monospace;
+	font-weight: 400;
+	font-style: normal;
+	position: absolute;
+	bottom: 800px;
+	left: 50px;
+	border: 3px solid #00ffe5;
+	border-radius: 25px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.heading1 {
+	font-size: 20px;
+	font-family: droid-sans-mono,monospace;
+	font-weight: 400;
+	font-style: normal;
+	color: #2486c9;
+	position: absolute;
+	bottom: 50px;
+	left: 700px;
+	border: 3px solid #00ffe5;
+	border-radius: 20px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.story1 {
+	font-size: 15px;
+	font-family: droid-sans-mono,monospace;
+	font-weight: 400;
+	font-style: normal;
+	color: #2486c9;
+	position: absolute;
+	bottom: -450px;
+	left: 730px;
+	border: 3px solid #00ffe5;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 500px;
+}

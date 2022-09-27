@@ -1,0 +1,27 @@
+body {
+	font-family: 'burgess-regular', serif;
+}
+
+.content {
+	font-family: 'Poppins', sans-serif;;
+}
+
+h1, h2 {
+	font-weight: 500;
+	font-size: 50px;
+}
+
+p {
+	font-weight: 200;
+	font-size: 14px;
+}
+
+@font-face {
+    font-family: 'burgess-regular';
+    src: url('fonts/burgess-regular.eot');
+    src: url('fonts/burgess-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/burgess-regular.woff') format('woff'),
+         url('fonts/burgess-regular.woff2') format('woff2'),
+         url('fonts/burgess-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
