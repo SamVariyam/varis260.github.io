@@ -1,0 +1,271 @@
+.layer1 {
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  width: 1961px;
+  height: 1310px;
+  z-index: 2;
+}
+
+.ellipse_1 {
+  border-width: 1.22px;
+  border-color: rgb(183, 156, 226);
+  border-style: solid;
+  border-radius: 50%;
+  position: absolute;
+  left: 571px;
+  top: 329px;
+  width: 776.56px;
+  height: 111.56px;
+  z-index: 5;
+}
+
+.ellipse_2 {
+  border-width: 1.22px;
+  border-color: rgb(183, 156, 226);
+  border-style: solid;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 1095px;
+  top: 507px;
+  width: 276.56px;
+  height: 412.56px;
+  z-index: 6;
+}
+
+
+.rectangle_1 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 505px;
+  top: 49px;
+  width: 942px;
+  height: 980px;
+  z-index: 4;
+}
+
+h1 {
+  font-family: good-times, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  color: rgb(183, 156, 226);
+  background-color: rgb(0,0,0);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 600px;
+  top: 370px;
+  z-index: 7;
+}
+
+h2 {
+  font-family: good-times, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 300px;
+  color: rgb(183, 156, 226);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 1150px;
+  top: 370px;
+  width: 138px;
+  height: 226px;
+  z-index: 12;
+}
+
+.ball_1 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 50%;
+  background-image: -moz-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  position: absolute;
+  left: 645px;
+  top: 158px;
+  width: 148px;
+  height: 148px;
+  z-index: 8;
+}
+
+.ball_2 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 50%;
+  background-image: -moz-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  position: absolute;
+  left: 817px;
+  top: 254px;
+  width: 148px;
+  height: 148px;
+  z-index: 9;
+}
+
+.ball_3 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 50%;
+  background-image: -moz-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  position: absolute;
+  left: 1120px;
+  top: 460px;
+  width: 148px;
+  height: 148px;
+  z-index: 10;
+}
+
+.ball_4 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 50%;
+  background-image: -moz-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  position: absolute;
+  left: 934px;
+  top: 460px;
+  width: 148px;
+  height: 148px;
+  z-index: 11;
+  transition: all 0.5s ease;
+}
+
+.ball_4:hover{
+    -webkit-transform: rotate(-360deg) scale(2);
+    transform: rotate(-360deg) scale(2);
+    cursor: pointer;
+    background-image: -webkit-linear-gradient( 90deg, rgb(25 214 33) 0%, rgb(112,92,170) 100%);
+}
+
+.ball_5 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 50%;
+  background-image: -moz-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(103,23,205) 0%, rgb(112,92,170) 100%);
+  position: absolute;
+  left: 1257px;
+  top: 626px;
+  width: 148px;
+  height: 148px;
+  z-index: 13;
+}
+
+.australia {
+  font-family: good-times, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  background-color: rgb(0,0,0);
+  color: rgb(225, 216, 239);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 680px;
+  top: 205px;
+  z-index: 14;
+}
+
+.germany {
+  font-family: good-times, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  background-color: rgb(0,0,0);
+  color: rgb(225, 216, 239);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 858px;
+  top: 311.5px;
+  z-index: 15;
+}
+
+a {
+  font-size: 24px;
+  font-family: "Reross";
+  color: rgb(183, 156, 226);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 1170.916px;
+  top: 965.1px;
+  z-index: 15;
+  text-decoration: none;
+}
+
+.us{
+  font-family: good-times, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  background-color: rgb(0,0,0);
+  color: rgb(225, 216, 239);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 980px;
+  top: 500.5px;
+  z-index: 16;
+}
+
+.norway{
+  font-family: good-times, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  background-color: rgb(0,0,0);
+  color: rgb(225, 216, 239);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 1190px;
+  top: 500.5px;
+  z-index: 17;
+}
+
+.uk {
+  font-family: good-times, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  background-color: rgb(0,0,0);
+  color: rgb(225, 216, 239);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 1319px;
+  top: 670px;
+  z-index: 18;
+}
+
+.back_button {
+  border-width: 1.22px;
+  border-color: rgb(183, 156, 226);
+  border-style: solid;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 1127px;
+  top: 950px;
+  width: 304.56px;
+  height: 52.56px;
+  z-index: 6;
+}
+

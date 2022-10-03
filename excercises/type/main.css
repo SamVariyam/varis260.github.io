@@ -1,19 +1,46 @@
-body {
-	font-family: 'burgess-regular', serif;
-}
-
 .content {
 	font-family: 'Poppins', sans-serif;;
 }
 
-h1, h2 {
-	font-weight: 500;
-	font-size: 50px;
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-p {
+.heading {
+    text-align: center;
+    line-height: 1.5;
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 50px;
+    font-family: 'burgess-regular', serif;
+    margin: 0;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-weightL500
+    font-size: 30px;
+     font-family: 'burgess-regular', serif;
+     letter-spacing: 1px;
+}
+
+p, span{
 	font-weight: 200;
 	font-size: 14px;
+}
+
+.author {
+    text-decoration: none;
+}
+
+a.author:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
 @font-face {
