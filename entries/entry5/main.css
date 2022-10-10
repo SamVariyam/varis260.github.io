@@ -168,16 +168,133 @@
   display: none;
 }
 
-.origin:hover {
-  display: none;
-  height: 150px;
+
+.test {
+  margin: 20px 20px;
+  width: 360px;
+  height: 200px;
+  font-family: "Paralucent";
+  line-height: 1;
+  text-align: center;
+  position: relative;
+  font-size: 55px;
+  align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap:  wrap;
 }
 
-.origin: hover {
-	display: ruby-text;
-  
+.origin1 {
+  height: 100%;
+  width: 100%;
+  background-color: #ffcd47;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  position: absolute;
 }
 
+.answer1 {
+  height: 100%;
+  width: 100%;
+  background-color: #ffcd47;
+  z-index: 1;
+   top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.origin1:hover {
+  z-index: 1;
+}
+
+.answer1:hover {
+  z-index: 99;
+}
+
+.origin2 {
+  height: 100%;
+  width: 100%;
+  background-color: #ccdbe2;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.answer2 {
+  height: 100%;
+  width: 100%;
+  background-color: #ccdbe2;
+  z-index: 1;
+   top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.origin2:hover {
+  z-index: 1;
+}
+
+.answer2:hover {
+  z-index: 99;
+}
+
+.origin3 {
+  height: 100%;
+  width: 100%;
+  background-color: #ff5a00;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.answer3 {
+  height: 100%;
+  width: 100%;
+  background-color: #ff5a00;
+  z-index: 1;
+   top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.origin3:hover {
+  z-index: 1;
+}
+
+.answer3:hover {
+  z-index: 99;
+}
+
+.origin4 {
+  height: 100%;
+  width: 100%;
+  background-color: #ffcd47;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.answer4 {
+  height: 100%;
+  width: 100%;
+  background-color: #ffcd47;
+  z-index: 1;
+   top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.origin4:hover {
+  z-index: 1;
+}
+
+.answer4:hover {
+  z-index: 99;
+}
 span {
 	max-height: 150px;
 }
