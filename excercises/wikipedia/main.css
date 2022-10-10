@@ -1,0 +1,17 @@
+.wrapper {
+	display: flex;
+	padding:10px;
+	min-height: 300px;
+	font-family: 'PT Mono', monospace;
+	color:  #042135;
+	font-size:  15px;
+	text-align:  center;
+}
+
+
+.item {
+  margin: 10px 10px;
+  width: 300px;
+}
+
+}
