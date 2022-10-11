@@ -1,37 +1,54 @@
 body {
-  font-size: 20px;
-  background-color: #b0d886;
+  background-color: rgb(251, 215, 252);
+  font-size: 48px;
+  color: rgb(22, 64, 31);
+  line-height: 1.2;
+  text-align: justifyAll;
 }
 .wrapper {
   margin: 0 auto;
-  text-align: center;
 }
+
 
 h1 {
-  font-family: 'Rubik Moonrocks', cursive;
-  font-size: 350px;
-  color: darkolivegreen;
-  padding: 15px;
+  font-family: "Scotch Display Condensed";
+  font-size: 160px;
+  color: rgb(22, 64, 31);
+  font-weight: bold;
+  position: absolute;
+  left: 27.117px;
+  bottom: -100px;
 }
 
-h2 {
- font-family: font-family: 'Prata', serif;
- font-size: 40px;
- color: darkolivegreen;
-}
 
 .entries {
-  font-family; courier
-  color: yellow;
-  font-size: 20px;
-
-}
-
-.entry {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 20px 20px;
   padding: 20px;
+  gap: 50px;
+  width: 200px;
+  font-size: 30px;
+  font-family: "Scotch Text";
+  position: absolute;
+  left: 1500px;
+  top: 170px;
+
 }
 
-.heading {
-  font-family: bodoni;
-  font-size: 40px;
+a:link {
+  color: rgb(22, 64, 31);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(22, 64, 31);
+  text-decoration: none
+}
+
+a:hover {
+  color: #fdf2ff;
+  text-decoration: underline;
 }
