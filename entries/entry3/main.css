@@ -14,8 +14,21 @@ element.style {
 }
 
 .container {
-	position: abolute;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	width: 300px;
+	gap: 30px;
+	left: 1000px;
+	bottom: 300px;
+	margin-left: 700px;
+	margin-bottom: 300px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
 }
 
 h1 {
@@ -27,25 +40,47 @@ h1 {
 	font-family: droid-sans-mono,monospace;
 	font-weight: 400;
 	font-style: normal;
-	position: absolute;
-	bottom: -50px;
-	left: 550px;
 	border: 3px solid #00ffe5;
 	border-radius: 25px;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	padding-left: 6px;
-	padding-right: 6px;
 }
-.ginger {
+.hot {
 	color:#00ffe5;
 	font-size: 25px;
 	font-family: droid-sans-mono,monospace;
 	font-weight: 400;
 	font-style: normal;
-	position: absolute;
-	bottom: -100px;
-	left: 950px;
+	border-width: 3px;
+	border-color:#00ffe5;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border: 3px solid #00ffe5;
+	border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+
+}
+.cold {
+	color:#00ffe5;
+	font-size: 25px;
+	font-family: droid-sans-mono,monospace;
+	font-weight: 400;
+	font-style: normal;
+	border-width: 3px;
+	border-color:#00ffe5;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border: 3px solid #00ffe5;
+	border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+
+	.neutral {
+	color:#00ffe5;
+	font-size: 25px;
+	font-family: droid-sans-mono,monospace;
+	font-weight: 400;
+	font-style: normal;
 	border-width: 3px;
 	border-color:#00ffe5;
 	padding-top: 3px;
@@ -59,29 +94,8 @@ h1 {
 	padding-left: 6px;
 	padding-right: 6px;
 }
-.banana {
-	color:#00ffe5;
-	font-size: 25px;
-	font-family: droid-sans-mono,monospace;
-	font-weight: 400;
-	font-style: normal;
-	position: absolute;
-	bottom: -130px;
-	left: 700px;
-	border-width: 3px;
-	border-color:#00ffe5;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	padding-left: 3px;
-	padding-right: 3px;
-	border: 3px solid #00ffe5;
-	border-image: linear-gradient(to right, darkblue, darkorchid) 1;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	padding-left: 6px;
-	padding-right: 6px;
-}
-.pumpkin {
+
+/*.pumpkin {
 	color:#00ffe5;
 	font-size: 25px;
 	font-family: droid-sans-mono,monospace;
@@ -146,30 +160,9 @@ h1 {
 	padding-bottom: 3px;
 	padding-left: 6px;
 	padding-right: 6px;
-}
-.rice {
-	color:#00ffe5;
-	font-size: 25px;
-	font-family: droid-sans-mono,monospace;
-	font-weight: 400;
-	font-style: normal;
-	position: absolute;
-	bottom: -340px;
-	left: 700px;
-	border-width: 3px;
-	border-color:#00ffe5;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	padding-left: 3px;
-	padding-right: 3px;
-	border: 3px solid #00ffe5;
-	border-image: linear-gradient(to right, darkblue, darkorchid) 1;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	padding-left: 6px;
-	padding-right: 6px;
-}
-.watermelon {
+}*/
+
+/*.watermelon {
 	color:#00ffe5;
 	font-size: 25px;
 	font-family: droid-sans-mono,monospace;
@@ -301,3 +294,4 @@ h1 {
 	padding-left: 6px;
 	padding-right: 6px;
 }
+*/

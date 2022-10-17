@@ -1,54 +1,201 @@
 body {
-  background-color: rgb(251, 215, 252);
-  font-size: 48px;
-  color: rgb(22, 64, 31);
+  background-color:#ff46de;
   line-height: 1.2;
   text-align: justifyAll;
+  font-family: groupie-gloss, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
 .wrapper {
   margin: 0 auto;
 }
 
 
 h1 {
-  font-family: "Scotch Display Condensed";
-  font-size: 160px;
-  color: rgb(22, 64, 31);
-  font-weight: bold;
+  font-size: 300px;
+  color: rgb(0, 255, 108);
+}
+
+h2 {
+  font-size: 302px;
+  color: rgb(96, 0, 255);
+}
+
+.choose2 {
   position: absolute;
-  left: 27.117px;
-  bottom: -100px;
+  left: 64px;
+  top: -243px;
+  z-index: 4;
+}
+
+.choose {
+  position: absolute;
+  left: 49px;
+  top: -200px;
+  z-index: 3;
+}
+
+.your2 {
+  position: absolute;
+  left: 411px;
+  top: 11px;
+  z-index: 6;
+}
+
+
+.your {
+  position: absolute;
+  left: 399px;
+  top: 50px;
+  z-index: 5;
+}
+
+.poison2{
+  position: absolute;
+  left: 632px;
+  top: 260px;
+  z-index: 8;
+}
+
+.poison {
+  position: absolute;
+  left: 619px;
+  top: 300px;
+  z-index: 7;
+}
+
+.shadows {
+  position: absolute;
+  border-width: 0px;
+  border-color: rgb(96, 0, 255);
+  border-style: solid;
+  border-radius: 50%;
+  background-color: #6000ff;
+}
+.shadow1 {
+  left: 731px;
+  top: 190px;
+  width: 144px;
+  height: 52px;
+  z-index: 9;
+}
+
+.shadow2 {
+  left: 860px;
+  top: 276px;
+  width: 144px;
+  height: 52px;
+  z-index: 12;
+}
+
+.shadow3{
+  left: 1033px;
+  top: 223px;
+  width: 144px;
+  height: 52px;
+  z-index: 11;
+}
+
+.shadow4 {
+  left: 1011px;
+  top: 376px;
+  width: 144px;
+  height: 52px;
+  z-index: 13;
+}
+
+.shadow5 {
+  left: 875px;
+  top: 459px;
+  width: 144px;
+  height: 52px;
+  z-index: 14;
+}
+
+.shadow6 {
+  left: 1056px;
+  top: 506px;
+  width: 144px;
+  height: 52px;
+  z-index: 15;
+}
+
+.shadow7 {
+  left: 1190px;
+  top: 450px;
+  width: 144px;
+  height: 52px;
+  z-index: 16;
 }
 
 
 .entries {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  margin: 20px 20px;
-  padding: 20px;
-  gap: 50px;
-  width: 200px;
-  font-size: 30px;
-  font-family: "Scotch Text";
+  border-width: 0px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 50%;
+  background-color: rgb(0, 255, 108);
   position: absolute;
-  left: 1500px;
-  top: 170px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 135px;
+  height: 90px;
+}
 
+.entry1 {
+  left: 707px;
+  top: 139px;
+  z-index: 10;
+}
+
+.entry2 {
+  position: absolute;
+  left: 833.4px;
+  top: 222.5px;
+  z-index: 24;
+}
+
+.entry3{
+  position: absolute;
+  left: 986px;
+  top: 322.5px;
+  z-index: 25;
+}
+
+.entry4 {
+  position: absolute;
+  left: 1040.167px;
+  top: 457.5px;
+  z-index: 26;
+}
+
+.entry5 {
+  position: absolute;
+  left: 851.425px;
+  top: 406px;
+  z-index: 27;
 }
 
 a:link {
-  color: rgb(22, 64, 31);
+  font-size: 80px;
+  font-family: groupie-gloss, sans-serif;
+  color: #6000ff;
+  line-height: 1.2;
+  text-align: justifyAll;
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(22, 64, 31);
+  font-size: 100px;
+  font-family: groupie-gloss, sans-serif;
+  color:#6000ff;
+  line-height: 1.2;
+  text-align: justifyAll;
   text-decoration: none
 }
 
 a:hover {
-  color: #fdf2ff;
-  text-decoration: underline;
+  color: #ff46de;
 }
