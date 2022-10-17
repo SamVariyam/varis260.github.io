@@ -14,6 +14,7 @@ element.style {
 }
 
 .container {
+	position: absolute;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -21,8 +22,8 @@ element.style {
 	align-content: center;
 	width: 300px;
 	gap: 30px;
-	left: 1000px;
-	bottom: 300px;
+	left: 100px;
+	top: 750px;
 	margin-left: 700px;
 	margin-bottom: 300px;
 	padding-top: 3px;
