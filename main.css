@@ -178,6 +178,13 @@ h2 {
   z-index: 27;
 }
 
+.entry6 {
+  position: absolute;
+  left: 1169px;
+  top: 400px;
+  z-index: 27;
+}
+
 a:link {
   font-size: 80px;
   font-family: groupie-gloss, sans-serif;
