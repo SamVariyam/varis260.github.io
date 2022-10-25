@@ -54,7 +54,7 @@ a {
 }
 
 a:hover {
-	color: #eb1a1a;
+	color: red;
 	text-decoration: underline;
 }
 
