@@ -129,6 +129,14 @@ h2 {
   z-index: 16;
 }
 
+.shadow8 {
+  left: 1190px;
+  top: 306px;
+  width: 144px;
+  height: 52px;
+  z-index: 16;
+}
+
 
 .entries {
   border-width: 0px;
@@ -190,6 +198,14 @@ h2 {
   left: 1001px;
   top: 169px;
   z-index: 27;
+}
+
+.entry8 {
+   position: absolute;
+  left: 1159px;
+  top: 252px;
+  z-index: 27;
+
 }
 
 
