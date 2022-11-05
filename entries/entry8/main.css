@@ -1,0 +1,81 @@
+body {
+	background-color: black;
+	font-family: synthemesc,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #fca0a0;
+}
+
+h1 {
+	font-size: 60px;
+	position: fixed;
+	top: 250px;
+	width: 100%;
+	text-align: center;
+}
+
+a {
+	font-size: 20px;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	text-decoration: none;
+}
+
+a: visited {
+	color: inherit;
+}
+
+img {
+	display: hide;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+	top: 395px;
+	gap: 55px;
+}
+
+.badpill{
+  border-width: 1.87px;
+  border-style: solid;
+  border-radius: 50%;
+  background-image: -moz-linear-gradient( 90deg, rgb(253,194,216) 0%, rgb(252,166,94) 35%, rgb(255,121,131) 65%, rgb(4,18,130) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(253,194,216) 0%, rgb(252,166,94) 35%, rgb(255,121,131) 65%, rgb(4,18,130) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(253,194,216) 0%, rgb(252,166,94) 35%, rgb(255,121,131) 65%, rgb(4,18,130) 100%);
+  box-shadow: 0px 14px 58.1px 11.9px rgba(194, 198, 226, 0.55);
+  width: 162.26px;
+  height: 333.26px;
+  z-index: 4;
+}
+
+.goodpill{
+  border-width: 1.87px;
+  border-style: solid;
+  border-radius: 50%;
+  background-image: -moz-linear-gradient( 90deg, rgb(253,194,216) 0%, rgb(252,166,94) 35%, rgb(255,121,131) 65%, rgb(4,18,130) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(253,194,216) 0%, rgb(252,166,94) 35%, rgb(255,121,131) 65%, rgb(4,18,130) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(253,194,216) 0%, rgb(252,166,94) 35%, rgb(255,121,131) 65%, rgb(4,18,130) 100%);
+  box-shadow: 0px 14px 58.1px 11.9px rgba(194, 198, 226, 0.55);
+  width: 162.26px;
+  height: 333.26px;
+  z-index: 5;
+}
+
+/*.badpill:hover {
+	cursor: pointer;
+}*/
+.badpilleffect {
+	background-image: url('imgs/gif1.gif');
+	background-repeat: no-repeat;
+	justify-content: center;
+}
+
+.goodpilleffect {
+	background-color: lightblue;
+}
+
