@@ -194,6 +194,8 @@ input[type=text]:focus {
 
 .end {
   color: #bdbefc;
+  text-align: center;
+  margin: 50px;
 }
 
 .button {
