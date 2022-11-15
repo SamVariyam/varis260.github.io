@@ -8,8 +8,8 @@ body {
 
 h1 {
 	font-size: 60px;
-	position: fixed;
-	top: 250px;
+	position: sticky;
+	top: 391px;
 	width: 100%;
 	text-align: center;
 }
