@@ -137,6 +137,14 @@ h2 {
   z-index: 16;
 }
 
+.shadow9 {
+  left: 1190px;
+  top: 136px;
+  width: 144px;
+  height: 52px;
+  z-index: 16;
+}
+
 
 .entries {
   border-width: 0px;
@@ -208,6 +216,13 @@ h2 {
 
 }
 
+.entry9 {
+   position: absolute;
+  left: 1159px;
+  top: 84px;
+  z-index: 27;
+
+}
 
 a:link {
   font-size: 80px;
