@@ -145,6 +145,13 @@ h2 {
   z-index: 16;
 }
 
+.shadow10 {
+  left: 1370px;
+  top: 200px;
+  width: 144px;
+  height: 52px;
+  z-index: 16;
+}
 
 .entries {
   border-width: 0px;
@@ -220,6 +227,13 @@ h2 {
    position: absolute;
   left: 1159px;
   top: 84px;
+  z-index: 27;
+}
+
+.entry10 {
+   position: absolute;
+  left: 1340px;
+  top: 150px;
   z-index: 27;
 
 }
