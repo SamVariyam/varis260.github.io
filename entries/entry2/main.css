@@ -1,73 +1,93 @@
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+/*body*/
+body {
+	border-width: 2px;
+	border-color: #8fa88c;
+	border-style: solid;
+	background-color: #274724;
+	border-radius: 20px;
+	color: #274724;
 }
-
-.static {
-	position: absolute;
-
-}
-
-.static:hover {
-	opacity: 0;
+/*header*/
+.header_img {
+	height: 90vh;
+	width: auto;
+	position: relative;
+	left: 15vw;
 }
 .wrapper {
 	margin: 0 auto;
 	max-height: 1080px;
-	background-color: #265621;
+	width: 98vw;
+	height: 90vh;
+	margin: 45px;
 }
-
-.painkiller {
-	margin: 0 auto;
-	max-height: 800px;
-	background-color: #63945d;
-}
-
-.column1 {
-  float: center;
-  width: 50%;
-  background-color: #63945d;;
-}
-
-h1 {
-	text-align: right;
-	font-family: Lexend Deca, sans-serif;
-	font-weight: bold;
-	font-size: 50px;
-	padding-right: 50px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 50px;
-	color: #265621;
-	position: relative;
-	left: 500px;
-	top: 20px;
-	bottom: 50px;
-	border: 3px solid #73AD21;
-	display: inline-block;
+/*imgs*/
+img {
 	width: auto;
+	height: 60vh;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #8fa88c;
+	padding:10px;
+}
+/*hide and unhide gifs*/
+.static {
+	position: absolute;
+}
+
+.static:hover {
+	opacity: 0;
+	cursor: pointer;
+}
+
+/*typeography*/
+h1 {
+	font-family: sirenia,sans-serif;
+font-weight: 700;
+font-style: normal;
+	font-size: 50px;
+	padding: 10px;
 }
 
 p {
 	font-size: 20px;
+	font-family: sirenia,sans-serif;
+font-weight: 400;
+font-style: normal;
+	width: 55vw;
+}
+
+/*classification*/
+.left_aligned {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+
+.right_aligned {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 20px
+}
+
+.left_aligned_text {
+	border-radius: 20px;
+	height: 56vh;
+	width: 80vw;
+	background-color: #8fa88c;
+	text-align: left;
+	margin-left: 20px;
+	padding: 20px;
+}
+
+.right_aligned_text {
+	border-radius: 20px;
+	height: 56vh;
+	width: 80vw;
+	background-color: #8fa88c;
 	text-align: right;
-	padding-top: 50px;
-	padding-right: 50px;
-	padding-left: 50px;
-	font-family: Cormorant, serif;
-	color: #143011;
-	position: relative;
-	bottom: 700px;
-	left: 0px;
+	margin-right: 20px;
+	padding: 20px;
 }
 
-div {
-	background-color: #63945d;
-	float: center;
-}
-
-body {
-	background-color: #63945d;
-}
