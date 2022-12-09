@@ -1,12 +1,17 @@
-body, html {
+body {
   height: 100%;
-  background-color:black
+  background-color:black;
+  text-align: center;
 }
 
+img {
+	display: block;
+	width: 75%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-
-element.style {
-    background-color: black;
 }
 .wrapper {
 	margin: 0 auto;
@@ -17,15 +22,14 @@ element.style {
 	position: absolute;
 	text-align: center;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-between;
 	align-content: center;
-	width: 300px;
+	width: 800px;
 	gap: 30px;
-	left: 100px;
-	top: 750px;
-	margin-left: 700px;
-	margin-bottom: 300px;
+	margin-top: 0px;
+	margin-left: 30%;
+	margin-bottom: auto;
 	padding-top: 3px;
 	padding-bottom: 3px;
 	padding-left: 6px;
@@ -43,6 +47,23 @@ h1 {
 	font-style: normal;
 	border: 3px solid #00ffe5;
 	border-radius: 25px;
+
+}
+.backbutton {
+	width: 100px;
+	height: auto;
+	margin: 20px;
+	text-align: middle;
+	border: solid;
+	border-color:  #00ffe5;
+	border-radius: 25px;
+	font-size: 25px;
+	font-family: droid-sans-mono,monospace;
+	font-weight: 400;
+	font-style: normal;
+	text-align: middle;
+	padding: 5px;
+
 }
 .hot {
 	color:#00ffe5;

@@ -22,6 +22,24 @@ h2 {
   color: rgb(96, 0, 255);
 }
 
+p {
+  font-family: roc-grotesk,sans-serif;
+font-weight: 400;
+font-style: normal;
+  font-size: 15px;
+  color: #5f01ff;
+
+}
+.text {
+  width: 256px;
+  position: absolute;
+  right: 130px;
+  top: 540px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: right;
+  /*background-color: rgb(0, 255, 108);*/
+}
 .choose2 {
   position: absolute;
   left: 64px;

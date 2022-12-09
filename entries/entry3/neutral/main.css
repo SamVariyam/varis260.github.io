@@ -3,14 +3,13 @@ body {
 }
 
 h1 {
-	display: inline-block;
 	font-family: leather, serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 400px;
+	font-size: 300px;
 	color: #d3d4d5;
 	text-align: center;
-	padding-left: 50px;
+	padding-left: 10%;
 	padding-right: 100px;
 	line-height: 250px;
 	height: 250px;
@@ -23,6 +22,10 @@ h1 {
                   35px 35px 0px #4c1ac1eb, 
                   40px 40px 0px #851ac1, 
                   45px 45px 0px #c11a2b;
+}
+
+.content {
+	width: 75%;
 }
 
 .backbutton {
@@ -46,13 +49,14 @@ h1 {
 }
 
 .heading1 {
+	display: block;
 	font-size: 20px;
 	font-family: droid-sans-mono,monospace;
 	font-weight: 400;
 	font-style: normal;
 	color: #2486c9;
 	position: absolute;
-	bottom: 50px;
+	bottom: 200px;
 	left: 700px;
 	border: 3px solid #00ffe5;
 	border-radius: 20px;
@@ -69,7 +73,7 @@ h1 {
 	font-style: normal;
 	color: #2486c9;
 	position: absolute;
-	bottom: -450px;
+	bottom: -300px;
 	left: 730px;
 	border: 3px solid #00ffe5;
 	border-radius: 25px;
